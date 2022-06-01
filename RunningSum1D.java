@@ -33,10 +33,8 @@ public class RunningSum1D {
     {
         int length = nums.length;
         int sum = 0;
-
         for(int i = 0; i < length; ++i)
         {
-            int n = i;
             sum += nums[i];
             nums[i] = sum;
         }
